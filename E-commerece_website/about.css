@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+header .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+header .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .navbar nav a {
+    color: #eae7e7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header .navbar nav a:hover {
+    color: #0b72b5;
+}
+
+/* Hero Section */
+.hero-about {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-about h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-about p {
+    font-size: 1.2rem;
+}
+
+/* Story Section */
+.story .container {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.story-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.story-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.story-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Mission Section */
+.mission {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.mission h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.mission p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Values Section */
+.values .container {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.value-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}

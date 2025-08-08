@@ -1,0 +1,248 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #0b72b5;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #085488;
+}
+
+/* Header Section */
+
+/* Transparent Glass Header */
+header .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent White */
+    backdrop-filter: blur(10px); /* Glass Effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header .navbar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header .navbar nav a:hover {
+    color: #0b72b5;
+}
+
+header .hero {
+    position: relative;
+    text-align: center;
+}
+
+header .hero img {
+    width: 100%;
+    height: auto;
+}
+
+header .hero .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+header .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Collections Section */
+.collections {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.collections h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.collection-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.collection-cards .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+.collection-cards img {
+    width: 100%;
+    height: auto;
+}
+
+.collection-cards p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* New Arrival Section */
+.new-arrival {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.new-arrival h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.new-arrival .arrival-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.new-arrival img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Promo Section */
+.promo {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+    background-color: #e3f2fd;
+    flex-wrap: wrap;
+}
+
+.promo-text {
+    flex: 1;
+}
+
+.promo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.promo img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Featured Product Section */
+.featured-product {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.featured-product h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.featured-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.featured-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Brands Section */
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.brand-card {
+    flex: 1;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.brand-card img {
+    width: 100%;
+    height: auto;
+}
+
+.brand-card h3 {
+    margin: 15px;
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
