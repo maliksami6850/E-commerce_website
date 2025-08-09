@@ -1,19 +1,19 @@
-E-Commerce Website
+E-Commerce Website: 
 A basic and responsive e-commerce website built using HTML, CSS, JavaScript, PHP, and MySQL. It allows users to browse products, add to cart, and place orders.
 ________________________________________
 Features
-•	Homepage with product display
-•	User registration and login
-•	Product listing and details
-•	Search and filter options
-•	Shopping cart and checkout
-•	Contact form
-•	Mobile-friendly design
+1.	Homepage with product display
+2.	User registration and login
+3.	Product listing and details
+4.	Search and filter options
+5.	Shopping cart and checkout
+6.	Contact form
+7.	Mobile-friendly design
 ________________________________________
 Technologies Used
-•	Frontend: HTML, CSS, JavaScript
-•	Backend: PHP (with MySQLi)
-•	Database: MySQL
+1.	Frontend: HTML, CSS, JavaScript
+2.	Backend: PHP (with MySQLi)
+3.	Database: MySQL
 ________________________________________
 How to Run
 1.	Install XAMPP or similar server
@@ -24,19 +24,19 @@ How to Run
 6.	Open http://localhost/your-folder-name in browser
 ________________________________________
 Project Structure (Main Files)
-•	index.html – Home page
-•	product.html – Product listings
-•	product-details.html – Individual product info
-•	cart.html – Cart page
-•	checkout.html – Checkout process
-•	login.php, signup.php – User auth
-•	config.php – DB connection
-•	css/, js/, images/ – Assets
+1.	index.html – Home page
+2.	product.html – Product listings
+3.	product-details.html – Individual product info
+4.	cart.html – Cart page
+5.	checkout.html – Checkout process
+6.	login.php, signup.php – User auth
+7.	config.php – DB connection
+8.	css/, js/, images/ – Assets
 ________________________________________
 Future Improvements
-•	Add real payment gateway
-•	Hash passwords for security
-•	Improve product filtering
-•	Store order history
-•	Admin panel for product management
+1.	Add real payment gateway
+2.	Hash passwords for security
+3.	Improve product filtering
+4.	Store order history
+5.	Admin panel for product management
 ________________________________________
